@@ -5,16 +5,16 @@
   &__heading {
     margin-bottom: 50px;
   }
-}
 
-.clients-list {
-  display: flex;
-  gap: 30px;
-}
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
 
-.clients-item {
-  height: 92px;
-  flex-basis: calc((100% - 150px) / 6);
+  &__item {
+    height: 92px;
+    flex-basis: calc((100% - 150px) / 6);
+  }
 
   &__link {
     display: flex;

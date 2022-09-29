@@ -1,24 +1,24 @@
 .activity {
   padding-top: 94px;
   padding-bottom: 94px;
-}
 
-.activity__heading {
-  margin-top: 0;
-  margin-bottom: 50px;
-}
+  &__heading {
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
 
-.activity-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-right: auto;
-  margin-left: auto;
-}
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-.activity-item {
-  position: relative;
-  flex-basis: calc((100% - 60px) / 3);
+  &__item {
+    position: relative;
+    flex-basis: calc((100% - 60px) / 3);
+  }
 
   &__img {
     display: block;

@@ -1,26 +1,26 @@
 .features {
   padding-top: 94px;
-}
 
-.features-list {
-  display: flex;
-  margin: auto;
-  gap: 30px;
-}
+  &__list {
+    display: flex;
+    margin: auto;
+    gap: 30px;
+  }
 
-.features-item {
-  width: 270px;
-}
+  &__item {
+    width: 270px;
+  }
 
-.features-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 270px;
-  height: 120px;
-  background-color: var(--section-bg-color);
-  border-radius: 4px;
-  margin-bottom: 30px;
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: var(--section-bg-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
 
   &__icon {
     display: flex;
